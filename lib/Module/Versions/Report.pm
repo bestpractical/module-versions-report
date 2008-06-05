@@ -1,7 +1,7 @@
 
 require 5;
 package Module::Versions::Report;
-$VERSION = '1.03';
+$VERSION = '1.04';
 $PACKAGES_LIMIT = 1000;
 
 =head1 NAME

@@ -1,5 +1,9 @@
 Revision history for Perl module Module::Versions::Report
-                                        Time-stamp: "2003-06-21 23:17:33 AHDT"
+
+2008-06-05  Ruslan U. Zakirov <ruz@bestpractical.com>
+
+	* Release 1.03
+	* fix compatibility with perl 5.10
 
 2007-05-21  Ruslan U. Zakirov <ruz@bestpractical.com>
 
