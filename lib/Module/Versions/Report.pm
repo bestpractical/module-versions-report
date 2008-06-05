@@ -127,7 +127,8 @@ sub report {
       $count++;
     } elsif(
        defined *{$this . '::ISA'} or defined &{$this . '::import'}
-       or ($this ne '' and grep defined *{$_}{'CODE'}, values %{$this . "::"})
+       or ($this ne '' and grep { ref $_ eq 'GLOB' and defined *{$_}{'CODE'} }
+                           values %{$this . "::"})
        # If it has an ISA, an import, or any subs...
     ) {
       # It's a class/module with no version.
