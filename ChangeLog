@@ -1,0 +1,17 @@
+Revision history for Perl module Module::Versions::Report
+                                        Time-stamp: "2003-06-21 23:17:33 AHDT"
+
+2007-05-21  Ruslan U. Zakirov <ruz@bestpractical.com>
+
+	* Release 1.03
+	* count modules instead of records in tables
+	* update docs
+
+2003-06-21  Sean M. Burke <sburke@cpan.org>
+
+	* Release 1.02:  First public release
+	
+	(Before this it just sat around on my hard drive for a year,
+	as I fiddled with its docs, and vacillated on which name to
+	release it as.)
+
