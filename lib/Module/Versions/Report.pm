@@ -127,6 +127,8 @@ sub report {
       $count++;
     } elsif(
        defined *{$this . '::ISA'} or defined &{$this . '::import'}
+# without perl version check on MacOS X's defualt perl things may seg fault
+# for example Request Tracker 3.8's make test target fails additional tests
        or ($this ne '' and grep { ($] < 5.010 or ref $_ eq 'GLOB') and defined *{$_}{'CODE'} }
                            values %{$this . "::"})
        # If it has an ISA, an import, or any subs...
