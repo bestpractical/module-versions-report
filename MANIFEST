@@ -1,9 +1,10 @@
 ChangeLog
+lib/Module/Versions/Report.pm
+Makefile.PL
 MANIFEST
 MANIFEST.SKIP
-Makefile.PL
+META.yml			Module meta-data (added by MakeMaker)
 README
-lib/Module/Versions/Report.pm
+SIGNATURE
 t/00about.t
 t/10load.t
-META.yml                                 Module meta-data (added by MakeMaker)
