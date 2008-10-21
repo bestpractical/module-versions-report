@@ -7,6 +7,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
    NAME          => 'Module-Versions-Report',
    VERSION_FROM  => 'lib/Module/Versions/Report.pm',
+   LICENSE       => 'perl',
    ABSTRACT      => 'report versions of all modules in memory',
    'dist'        => { COMPRESS => 'gzip -6f', SUFFIX => 'gz', },
 );

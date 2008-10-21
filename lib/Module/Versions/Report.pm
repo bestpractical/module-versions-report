@@ -1,8 +1,8 @@
 
 require 5;
 package Module::Versions::Report;
-$VERSION = '1.05';
-$PACKAGES_LIMIT = 1000;
+$VERSION = '1.06';
+$PACKAGES_LIMIT = 10000;
 
 =head1 NAME
 

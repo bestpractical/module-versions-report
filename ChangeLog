@@ -1,5 +1,9 @@
 Revision history for Perl module Module::Versions::Report
 
+2008-10-21 Jesse Vincent <jesse@bestpractical.com>
+	* Fix META.yml
+	* Bump the package limit from 1k to 10k
+
 2008-06-13  Jesse Vincent <jesse@bestpractical.com>
 	
 	* Release 1.05
